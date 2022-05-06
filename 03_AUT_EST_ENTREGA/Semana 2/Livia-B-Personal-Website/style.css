@@ -1,16 +1,11 @@
 *{
 max-width: 100%;
 min-height: 100%;
-overflow-x: hidden;
-overflow-y: auto;
-
 margin-bottom: 0;
 margin: 0px;
 padding: 0px;
 }
 
-*::-webkit-scrollbar {
-    display: none;}
 
 
 #homebody{
@@ -18,17 +13,14 @@ padding: 0px;
 }
 
 
-
 main{
   background-color: #004d90;
+  
 }
 body{
   min-height: 100%;
-  overflow-y: hidden;
   }
 
-body::-webkit-scrollbar {
-    display: none;}
 
 .myself{
   border-radius: 50%;
@@ -92,12 +84,12 @@ ul {
   list-style-type: none;
   background-color:#c8fffb;
   overflow: hidden;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
   text-align: center;
   font-family: 'Varela Round', sans-serif;
   letter-spacing: 3px;
-  
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-top: 0px;
 
 
 }
@@ -114,7 +106,6 @@ li a {
   color: #021b79;
   font-size: 1em; 
   padding: 2em;
-  margin-top: 1em;
 
 }
 
