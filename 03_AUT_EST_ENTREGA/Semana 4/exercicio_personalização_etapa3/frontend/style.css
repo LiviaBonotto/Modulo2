@@ -1,6 +1,5 @@
 *{
 max-width: 100%;
-min-height: 100%;
 margin-bottom: 0;
 margin: 0px;
 padding: 0px;
@@ -168,4 +167,17 @@ li a:hover {
 
 #meetMain{ /* main */
   background-color: #004d90;
+}
+
+#button {
+	font-family: 'Courier New', Courier, monospace;
+	border: solid 2px rgb(97, 97, 176);
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: large;
+	padding: 10px;
+}
+#button:hover {
+	background-color: rgb(97, 97, 176);
+	color: #ffffff;
 }
