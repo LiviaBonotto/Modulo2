@@ -1,0 +1,183 @@
+*{
+max-width: 100%;
+margin-bottom: 0;
+margin: 0px;
+padding: 0px;
+}
+
+
+
+#homebody{
+ background:linear-gradient(90deg, #0575e6 0%,#021b79 100% );
+}
+
+
+main{
+  background-color: #004d90;
+  
+}
+body{
+  min-height: 100%;
+  }
+
+
+.myself{
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+
+
+.text{
+  font-size: 100%;
+  font-family: 'Roboto Mono', monospace;
+  color: aliceblue;
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.header {
+ text-align: center;
+ letter-spacing: 8px;
+ word-spacing: 5px;
+ padding-top: 5em;
+ padding-bottom: 5em;
+ background:linear-gradient(90deg, #0575e6 0%,#021b79 100% );
+ color: #c8fffb;
+
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+#meetMain{
+  background-color: #004d90;
+}
+
+.title {
+  font-family: 'Varela Round', sans-serif;
+  font-size: xxx-large;
+}
+
+.subtitle {
+  font-family: 'WindSong', cursive;
+  font-size: xx-large;
+}
+
+
+
+/*personalizing the nav bar*/
+ul {
+  list-style-type: none;
+  background-color:#c8fffb;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: 3px;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-top: 0px;
+
+
+}
+
+/* the way the buttons displays inside the nav bar*/
+li{
+  display: inline;
+
+}
+
+/* personalizing the text in the nav bar*/
+li a {
+  text-decoration: none;
+  color: #021b79;
+  font-size: 1em; 
+  padding: 2em;
+
+}
+
+/* sets a background when you pass the mouse though the button in the nav bar*/
+li a:hover {
+  background-color:#004d90;
+  color: #c8fffb;
+  transition: 0.4s;
+
+}
+
+
+
+#who{ /*who am I main*/
+  font-family: 'WindSong', cursive;
+  font-size: xx-large;
+  text-align: center;
+  color: #c8fffb;
+  margin-top: 2em;
+}
+
+
+#whoText{ /*who am I text*/
+  font-family: 'Roboto Mono', monospace;
+  text-align: justify;
+  display: block;
+  color: aliceblue;
+  text-anchor: start;
+  margin-right: 10em;
+  margin-left: 10em; 
+  padding-top: 1em;
+  background-color: #004d90;
+  letter-spacing: 0.1em;
+
+
+}
+
+
+#interests{  /* my interests */
+  font-family: 'WindSong', cursive;
+  font-size: xx-large;
+  text-align: center;
+  color: #c8fffb;
+  margin-top: 2em;
+}
+
+
+#interestsText{ /* my interests text */
+  font-family: 'Roboto Mono', monospace;
+  text-align: justify;
+  display: block;
+  color: aliceblue;
+  margin-right: 10em;
+  margin-left: 10em;
+  padding-top: 1em;
+  background-color: #004d90;
+  letter-spacing: 0.1em;
+
+}
+
+#meetMain{ /* main */
+  background-color: #004d90;
+}
+
+.button {
+	font-family: 'Courier New', Courier, monospace;
+	border: solid 2px rgb(97, 97, 176);
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: large;
+	padding: 10px;
+}
+#button:hover {
+	background-color: rgb(97, 97, 176);
+	color: #ffffff;
+}
