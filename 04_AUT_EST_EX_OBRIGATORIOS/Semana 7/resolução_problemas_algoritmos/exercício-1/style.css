@@ -1,0 +1,35 @@
+#buttonsBox{
+    margin: 1rem;
+}
+
+#add {
+    background-color: rgb(91, 63, 10);
+    border-radius: 10px;
+    height: 2.5rem;
+    margin-right: 1rem;
+    width: 2.5rem;
+    font-weight: bold;
+    font-size: larger;
+    color: aliceblue;
+}
+
+#remove {
+    background-color: rgb(91, 63, 10);;
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-weight: bold;
+    font-size: larger;   
+    color: aliceblue;
+}
+
+#inputBox{
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+body{
+    background-color: antiquewhite;
+    align-content: center;
+    margin: 10rem;
+}
