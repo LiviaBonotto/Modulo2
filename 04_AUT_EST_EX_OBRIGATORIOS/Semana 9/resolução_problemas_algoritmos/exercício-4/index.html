@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Semana 7 - Exercício 4</title>
+</head>
+
+
+<body>
+
+    <div class="container-fluid justify-content-center align-items-center">
+        <div class="row" id="header">
+            <h1>Exercício 4 </h1>
+            <p>Crie uma página web que permita ao usuário informar a quantidade de pessoas (número inteiro inteiro) e o período (Noturno ou Diurno) e, quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), mostre o total da compra de acordo com as condições abaixo:
+                <br/>- Se vôo diurno, 200 por pessoa. Se mais do que 50 pessoas, desconto de 40% por pessoa.
+                <br/>- Se vôo noturno, 100 por pessoa. Se mais do que 50 pessoas, desconto de 20% por pessoa.</p>
+        </div>
+    
+        <div class="justify-content-center align-items-center" id="inputBox">
+            <h3>Insira a quantidade de pessoas:</h3>
+            <input type="number" id="inputPessoas" placeholder="quantidade pessoas">  
+            <h3>Selecione o período (noturno / diúrno):</h3>
+            <select class="form-select" id="periodoSelect">
+                <option selected disabled>Selecionar período</option>
+                <option value="1">Noturno</option>
+                <option value="2">Diurno</option>    
+            </select>
+
+            <div id="buttonsBox">
+                <input class="btn" id="calcularBtn" type="button" value="Calcular" onclick="calcula()"></input>
+            </div>        
+        </div>
+    
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
