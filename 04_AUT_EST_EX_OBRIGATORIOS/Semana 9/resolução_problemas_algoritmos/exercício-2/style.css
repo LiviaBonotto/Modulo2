@@ -2,11 +2,11 @@
     margin: 1rem;
 }
 
-#trocaBtn {
+#somar {
     background-color: rgb(91, 63, 10);;
     border-radius: 10px;
-    height: 3rem;
-    width: 5rem;
+    height: 2.5rem;
+    width: 6rem;
     font-weight: bold;
     font-size: larger;   
     color: aliceblue;

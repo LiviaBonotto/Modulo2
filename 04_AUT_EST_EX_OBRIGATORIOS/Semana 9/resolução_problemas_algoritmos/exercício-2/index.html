@@ -10,7 +10,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Semana 7 - Exercício 2</title>
+    <title>Semana 9 - Exercício 2</title>
 </head>
 
 
@@ -19,17 +19,16 @@
     <div class="container-fluid justify-content-center align-items-center">
         <div class="row" id="header">
             <h1>Exercício 2 </h1>
-            <p>Crie uma página web na qual o usuário possa digitar dois valores, cada um em uma caixa de texto. Quando o usuário indicar que deseja que os valores sejam trocados (clicando no botão "Troca"), os valores contidos nas caixas de texto são trocados, ou seja, se na primeira caixa de texto estiver escrito "IPT" e na segunda, "Inteli", quando solicitada a troca, a primeira caixa de texto deve contar "IPT" e a segunda, "Inteli".</p>      
+            <p>Crie uma página web na qual o usuário informe um número inteiro positivo e quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), seja exibida a soma de seus dígitos.
+            </p>
         </div>
     
         <div class="justify-content-center align-items-center" id="inputBox">
-            <h3>Insira alguma coisa:</h3>
-            <input type="text" id="input1">    
-            <h3>Insira alguma coisa 2:</h3>
-            <input type="text" id="input2">    
+            <h3>Insira um valor inteiro positivo:</h3>
+            <input type="number" id="numeroInput" placeholder="xxx">    
 
             <div id="buttonsBox">
-                <input class="btn" id="trocaBtn" type="button" value="Trocar" onclick="trocaPosicao()"></input>
+                <input class="btn" id="somar" type="button" value="Somar" onclick="soma()"></input>
             </div>        
         </div>
     
