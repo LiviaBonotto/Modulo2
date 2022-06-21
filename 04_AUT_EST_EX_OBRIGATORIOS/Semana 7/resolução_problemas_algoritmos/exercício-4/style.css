@@ -1,0 +1,25 @@
+#buttonsBox{
+    margin: 1rem;
+}
+
+#calcularBtn {
+    background-color: rgb(91, 63, 10);;
+    border-radius: 10px;
+    height: 3rem;
+    width: 6rem;
+    font-weight: bold;
+    font-size: larger;   
+    color: aliceblue;
+}
+
+#inputBox{
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+body{
+    background-color: antiquewhite;
+    align-content: center;
+    margin: 10rem;
+}
+
