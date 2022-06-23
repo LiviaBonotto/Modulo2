@@ -10,7 +10,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Semana 7 - Exercício 5</title>
+    <title>Semana 9 - Exercício 5</title>
 </head>
 
 
@@ -19,51 +19,20 @@
     <div class="container-fluid justify-content-center align-items-center">
         <div class="row" id="header">
             <h1>Exercício 5 </h1>
-            <p>Crie uma página web na qual o usuário informe a quantidade de alunos e a nota de cada aluno na prova e no trabalho. Quando o ususário finalizar o fornecimento de todas as informações e solicitar o cálculo, mostre:
-                <br/>- a média de cada aluno, calculada considerando peso 2 para a prova e 3 para o trabalho;
-                <br/>- a média geral, considerando todos os alunos;
-                <br/>- a média artiméticas das notas de prova;
-                <br/>- a média artiméticas das notas de trabalho;
-                <br/>- a menor e a maior notas de prova;
-                <br/>- a menor e a maior notas de trabalho. Obs: note que a quantidade de campos para inserção das notas de cada aluno depende da quantidade de alunos informada.</p>
+            <p>Elabore um programa que, dados dois números naturais n1 e n2, representando um intervalo fechado [n1, n2], exibe todos os números primos no intervalo.Sem exercícios de programação obrigatórios para essa semana :)
+            </p>
         </div>
     
         <div class="justify-content-center align-items-center" id="inputBox">
-            <h3>Insira a quantidade de alunos:</h3>
-            <input type="number" id="inputAlunos" placeholder="quantidade alunos">  
-            <input class="btn" id="enviarBtn" type="button" value="Enviar" onclick="adicionaEstudantes()"></input>
+            <h3>Insira o primeiro número:</h3>
+            <input type="number" id="input1" placeholder="numero 1">  
+            <h3>Insira o segundo número:</h3>
+            <input type="number" id="input2" placeholder="numero 2">  
         </div>
+        <input class="btn" id="enviarBtn" type="button" value="Enviar" onclick="calcula()"></input>
+    
+        <p id="resultado"></p>
 
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Estudante</th>
-                <th scope="col">Nota Trabalho</th>
-                <th scope="col">Nota Prova</th>
-                <th scope="col">Média Final</th>
-              </tr>
-            </thead>
-            <tbody id="tabela-calculo">
-            </tbody>
-          </table>
-          <span class="col-12">
-            <ul class="list-group">
-              <li class="list-group-item">Média Geral: <span id="media-geral">0</span></li>
-              <li class="list-group-item">Média Das Provas: <span id="media-provas">0</span> </li>
-              <li class="list-group-item">Média Dos Trabalhos: <span id="media-trabalhos">0</span></li>
-              <li class="list-group-item">Maior Nota da Prova: <span id="maior-nota-prova">0</span></li>
-              <li class="list-group-item">Menor Nota da Prova: <span id="menor-nota-prova">0</span></li>
-              <li class="list-group-item">Maior Nota do Trabalho: <span id="maior-nota-trabalho">0</span></li>
-              <li class="list-group-item">Menor Nota da Trabalho: <span id="menor-nota-trabalho">0</span></li>
-            </ul>
-          </span>
-          <div class="p-5 d-flex flex-column justify-content-center align-items-center">
-            <div class="d-flex justify-content-center align-items-center">
-                <input class="btn" id="calcularBtn" type="button" value="Calcular" onclick="calcula()"></input>
-            </div>
-          </div>
-    
-    
     </div>
 
 

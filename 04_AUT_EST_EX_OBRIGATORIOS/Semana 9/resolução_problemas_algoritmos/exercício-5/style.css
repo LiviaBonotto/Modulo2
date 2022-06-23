@@ -6,6 +6,7 @@
     font-weight: bold;
     font-size: larger;   
     color: aliceblue;
+    margin-top: 2rem;
 }
 
 #inputBox{
@@ -20,5 +21,9 @@ body{
 }
 
 .table{
+    margin-top: 2rem;
+}
+
+p{
     margin-top: 2rem;
 }
