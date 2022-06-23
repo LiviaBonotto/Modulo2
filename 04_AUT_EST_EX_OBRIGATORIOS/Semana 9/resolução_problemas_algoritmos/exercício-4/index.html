@@ -10,7 +10,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Semana 7 - Exercício 4</title>
+    <title>Semana 9 - Exercício 4</title>
 </head>
 
 
@@ -19,24 +19,19 @@
     <div class="container-fluid justify-content-center align-items-center">
         <div class="row" id="header">
             <h1>Exercício 4 </h1>
-            <p>Crie uma página web que permita ao usuário informar a quantidade de pessoas (número inteiro inteiro) e o período (Noturno ou Diurno) e, quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), mostre o total da compra de acordo com as condições abaixo:
-                <br/>- Se vôo diurno, 200 por pessoa. Se mais do que 50 pessoas, desconto de 40% por pessoa.
-                <br/>- Se vôo noturno, 100 por pessoa. Se mais do que 50 pessoas, desconto de 20% por pessoa.</p>
+            <p>A série de Fibonacci é formada pela sequência 1, 1, 2, 3, 5, 8, 13, 21, 34, ... Escreva um programa que apresente a série de Fibonacci até o n-ésimo termo (n > 0).
+            </p>
         </div>
     
         <div class="justify-content-center align-items-center" id="inputBox">
-            <h3>Insira a quantidade de pessoas:</h3>
-            <input type="number" id="inputPessoas" placeholder="quantidade pessoas">  
-            <h3>Selecione o período (noturno / diúrno):</h3>
-            <select class="form-select" id="periodoSelect">
-                <option selected disabled>Selecionar período</option>
-                <option value="1">Noturno</option>
-                <option value="2">Diurno</option>    
-            </select>
+            <h3>Insira um valor inteiro positivo: </h3>
+            <input type="number" id="input" placeholder="número">  
 
             <div id="buttonsBox">
-                <input class="btn" id="calcularBtn" type="button" value="Calcular" onclick="calcula()"></input>
-            </div>        
+                <input class="btn" id="calcularBtn" type="button" value="Calcular Sequência" onclick="calcula()"></input>
+            </div>     
+            
+            <p id="resultado"></p>
         </div>
     
     </div>
