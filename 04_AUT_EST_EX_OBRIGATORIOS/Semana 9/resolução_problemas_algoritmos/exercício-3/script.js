@@ -1,15 +1,25 @@
-function testaInput (input) {
-    const numero = document.getElementById("input");
-    const formato = /^\([1-9]{2}\)(?:[2-8]|[1-9][1-9])[0-9]{3}\-[0-9]{4}$/g.test(numero.value);
+// function ordena () {
+//     var nome1 = document.getElementById("input1").value;
+//     var nome2 = document.getElementById("input2").value;
+//     var nome3 = document.getElementById("input3").value;
+//     var nomes = [nome1, nome2, nome3];
 
-    // testa o input
-    if (formato) {
-        alert ("Número enviado!")
-    } 
-    
-    else {
-        alert("Formato incorreto! Envie seu número de telefone no formato (xx)xxxxx-xxxx")
-    } 
+//     nomesOrdenado = nomes.sort();
 
+//     for ( var i = 0; i < nomesOrdenado.lenght; i++) {
+//         document.getElementById("ordenado").innerHTML += nomesOrdenado[i];
+//     }
+// }
+
+function ordena(){
+    var nome1 = document.getElementById("input1").value;
+    var nome2 = document.getElementById("input2").value;
+    var nome3 = document.getElementById("input3").value;
+
+    var nomes = [nome1, nome2, nome3];
+    var ordena = nomes.sort();
+
+    alert(ordena.join(', '));
 }
+
 

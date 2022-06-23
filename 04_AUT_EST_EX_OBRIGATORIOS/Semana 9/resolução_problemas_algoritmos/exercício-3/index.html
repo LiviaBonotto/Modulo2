@@ -10,7 +10,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Semana 7 - Exercício 3</title>
+    <title>Semana 9 - Exercício 3</title>
 </head>
 
 
@@ -19,16 +19,22 @@
     <div class="container-fluid justify-content-center align-items-center">
         <div class="row" id="header">
             <h1>Exercício 3 </h1>
-            <p>Crie uma página web na qual o usuário deva escrever em um campo de texto o número de seu celular no formato "(XX)XXXXX-XXXX" e, caso o formato não seja respeitado, o usuário seja notificado.</p>
+            <p>Crie uma página web na qual o usuário informe três nomes e quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), os nomes são exibidos em ordem alfabética crescente.
+            </p>
         </div>
     
         <div class="justify-content-center align-items-center" id="inputBox">
-            <h3>Insira seu número de telefone:</h3>
-            <input type="text" id="input" placeholder="(xx)xxxxx-xxxx">    
+            <h3>Insira o primeiro nome: </h3>
+            <input type="text" id="input1" placeholder="nome 1">    
+            <h3>Insira o segundo nome: </h3>
+            <input type="text" id="input2" placeholder="nome 2">    
+            <h3>Insira o terceiro nome: </h3>
+            <input type="text" id="input3" placeholder="nome 3">    
 
             <div id="buttonsBox">
-                <input class="btn" id="enviarBtn" type="button" value="Enviar" onclick="testaInput()"></input>
-            </div>        
+                <input class="btn" id="enviarBtn" type="button" value="Ordenar" onclick="ordena()"></input>
+            </div>
+            <h6 id="ordenado"></h6>
         </div>
     
     </div>
